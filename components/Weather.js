@@ -43,3 +43,10 @@ export default function Weather(props) {
         </View>
     );
 }
+
+const styles = {
+    temp: {
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
+};
